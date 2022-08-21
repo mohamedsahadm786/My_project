@@ -11,5 +11,29 @@ entry = tkinter.Entry(master=frame, borderwidth=3, width=23, font=('arial', 15, 
 entry.grid(row=0, column=0, pady=7, ipady=15, columnspan=4)
 
 
+def character(n):
+    entry.insert(tkinter.END, n)
+
+
+def result():
+    try:
+        y = eval(entry.get())
+        entry.delete(0, tkinter.END)
+        entry.insert(tkinter.END, y)
+    except:
+        entry.delete(0, tkinter.END)
+        entry.insert(tkinter.END, "syntax error/formula error")
+
+
+def back():
+    b = entry.get()
+    a = len(b)
+    entry.delete(a - 1, tkinter.END)
+
+
+def clear():
+    entry.delete(0, tkinter.END)
+
+
 
 win.mainloop()
