@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9157bbd1-ae16-4ef4-bfd4-cb0143d3d7e3" name="Changes" comment="window,frame and entry are added." />
+    <list default="true" id="9157bbd1-ae16-4ef4-bfd4-cb0143d3d7e3" name="Changes" comment="All functions are defined" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661108224003</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="All functions are defined">
+      <created>1661108511443</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661108511443</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,7 +119,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="window,frame and entry are added." />
-    <option name="LAST_COMMIT_MESSAGE" value="window,frame and entry are added." />
+    <MESSAGE value="All functions are defined" />
+    <option name="LAST_COMMIT_MESSAGE" value="All functions are defined" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
