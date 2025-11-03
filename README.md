@@ -81,3 +81,34 @@ This notebook (`Video_Interview_trainer.ipynb`) implements a full interview pipe
 
 ### ASCII Flow Diagram
 
++------------------+
+| User Inputs | (Job title, JD, Resume, Interview type)
++--------+---------+
+|
+v
++------------------+
+| Question Generator|
+| (OpenAI GPT) |
++--------+---------+
+|
+v
++-----------------------------+
+| Interview Loop (per question)|
++-----------------------------+
+| 1) Show Question |
+| 2) Record video-only (cv2) |
+| 3) Record audio-only (sd) |
+| 4) Merge A+V (moviepy) |
+| 5) ASR (whisper) |
+| 6) MFA alignment |
+| 7) Feature extraction |
+| - Audio: WavLM |
+| - Video: VideoMAE |
+| 8) Confidence classifier |
+| 9) LLM Feedback generation |
++-----------------------------+
+|
+v
++------------------+
+| Outputs & Reports |
++------------------+
